@@ -1,3 +1,3 @@
-# LCBench
-LCBench
+# CR-Bench
+CR-Bench
 Training
