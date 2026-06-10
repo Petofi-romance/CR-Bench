@@ -1,0 +1,21 @@
+provider:
+  model: gpt-4o-mini
+  base_url: https://api.siliconflow.cn/v1
+  api_keys: []
+  api_keys_env: CONFIDENCE_API_KEYS
+  temperature: 0.7
+
+result_name: gpt-4o-mini
+
+runtime:
+  batch_size: 8
+  max_rounds: 8
+  consistency_threshold: 6
+  max_retries: 5
+  timeout: 60
+
+paths:
+  questions: data/benchmark_questions.json
+  prompts: data/prompt.json
+  output_dir: outputs/evaluation
+  history_dir: outputs/history_logs
