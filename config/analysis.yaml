@@ -1,3 +1,0 @@
-paths:
-  evaluation_dir: outputs/evaluation
-  output_file: outputs/analysis/leaderboard.json
